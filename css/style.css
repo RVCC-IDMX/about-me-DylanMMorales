@@ -61,7 +61,7 @@ text-align-last: left;
 }
 
 #gallery img{
-    max-width:100%;
+    max-width:50%;
 }
 
 #gallery figure {
