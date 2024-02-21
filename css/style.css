@@ -55,6 +55,7 @@ header {
 
 #gallery {
 border: 2px solid #6D9CAA;
+margin-bottom:2rem;
 font-size:32pt;
 text-align-last: left;
 }
@@ -65,4 +66,16 @@ text-align-last: left;
 
 #gallery figure {
     text-align: center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #6D9CAA;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:3rem;
+    max-width:30;
+    margin:0 auto;
 }
