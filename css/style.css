@@ -119,7 +119,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 #lit div {
@@ -129,7 +129,7 @@ columns: 25rem;
 }
 
 /* large screen size */
-@media screen and (min-width: 60em){
+@media screen and (min-width:60em){
     #gallery {
         display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -166,4 +166,14 @@ grid-template-columns: 1fr 1fr 1fr;
     margin-bottom:2rem;
     text-align-last: center;
     font-size: 22px;
+}
+
+/* Contact Form */
+
+#FormElements {
+    display: flex;
+    flex-direction:column;
+    align-items:stretch;
+
+
 }
